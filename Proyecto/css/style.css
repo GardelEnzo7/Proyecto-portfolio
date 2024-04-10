@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    background-image: url(https://w.forfun.com/fetch/09/09baf7182229f8548c7657b3538aea12.jpeg);
+    background-size: cover;
+    color: white;
+}
+
+header { 
+text-align: center;
+background-color: rgba(0, 0, 0, 0.377);
+padding: 1rem 2rem;
+color: black;
+border-bottom: 1px solid black;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 850px;
+    padding: 20px 20px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+main:hover {
+    background-color: rgba(0, 0, 0, 0.377);
+    transition: all .5s;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.subtitle {
+    font-size: 30px;
+}
+
+.presentacion {
+    font-size: 50px ;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+
+
+.preferencias {
+    font-size: 50px;
+    text-align: center;
+}
+
+.gustos {
+    height: 500px;
+    padding: 100px;
+}
+
+ul {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+li , h2 , h1 {
+    cursor: pointer;
+}
+
+.gustos:hover {
+    transition: all .5s;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover, a:hover {
+    color: rgb(18, 231, 196);
+    transition: all .5s;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    background-color:rgba(0, 0, 0, 0.377) ;
+}
+
+
+
